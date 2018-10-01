@@ -8,7 +8,9 @@
 /_/   \__,_/_/ /_/\___/\____/_/ /_/_/ /_/\____/_/     
                                                       
 Free to use by the public and free to modify and clone.
-DISCLAIMER: Please note, DDOS and or ( DOS ) is illegal and using this script for illicit purposes is is punishable by law. This script is intended for white-hat security pen-testing only, or educational use only.
+DISCLAIMER: Please note, DDOS and or ( DOS ) is illegal and using this 
+script for illicit purposes is is punishable by law. This script is
+intended for white-hat security pen-testing only, or educational use only.
 
 */
 
