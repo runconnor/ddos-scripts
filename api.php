@@ -35,7 +35,7 @@ if (isset($_REQUEST['host']) && isset($_REQUEST['time']) isset($_REQUEST['power'
     }
 
     for($i-0;$i<$power;$i++) {
-        $out .='Y';
+        $out .='Port Scanning';
 
     }
     while(1) {
