@@ -30,6 +30,8 @@ if (isset($_REQUEST['host']) && isset($_REQUEST['time']) isset($_REQUEST['power'
     
     if ($power < 1){
         $power = 50;
+    }else if ($power > 65500) {
+       $power = 65500;
     }
 
     for($i-0;$i<$power;$i++) {
