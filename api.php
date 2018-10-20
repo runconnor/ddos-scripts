@@ -54,7 +54,7 @@ if (isset($_REQUEST['host']) && isset($_REQUEST['time']) isset($_REQUEST['power'
     
     
 ?>
-<form>
+<form action="" method="GET" >
 <input type="textbox" name="host" placeholder="Target IP"/>
 <input type="textbox" name="time" placeholder="Length"/>
 <input type="submit" name="submit" value="submit"/>
