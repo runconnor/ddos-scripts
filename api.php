@@ -16,6 +16,14 @@ intended for white-hat security pen-testing only, or educational use only.
 //ini_set('display_errors', 1);
 //error_reporting(-1);
 
+$request_server_ip = "your_frontend_server_ip_here";
+
+if ($_SERVER["HTTP_X_FORWARDED_FOR"] == $request_server_ip) {
+     
+}else{
+   break;
+}
+
 if (isset($_REQUEST['host']) && (isset($_REQUEST['time'])) /* (isset($_REQUEST['power'])) */ ) {
 
     $packets = 0;
