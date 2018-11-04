@@ -2,6 +2,6 @@
 sudo apt install apache2 php libapache2-mod-php
 sudo apt-get install php7.0-cli -y
 sudo apt-get install libssh2-1 php-ssh2 -y
-sudo systemctl restart apache
+sudo systemctl restart apache2
 
 • CentOS Coming Soon •
