@@ -1,0 +1,5 @@
+
+sudo apt install apache2 php libapache2-mod-php
+sudo apt-get install php5.6-cli -y
+sudo apt-get install libssh2-1 php5.6-ssh2 -y
+sudo systemctl restart apache
