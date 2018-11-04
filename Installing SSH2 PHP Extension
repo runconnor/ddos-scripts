@@ -1,8 +1,0 @@
-• Ubuntu •
-sudo apt update
-sudo apt install apache2 php libapache2-mod-php php7.0-cli
-sudo apt-get install libssh2-1 php-ssh2 -y
-sudo wget https://raw.githubusercontent.com/runconnor/ddos-scripts/master/httpflood.py
-sudo systemctl restart apache2
-
-• CentOS Coming Soon •
