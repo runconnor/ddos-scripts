@@ -5,7 +5,7 @@
   if (isset($_REQUEST['host']) && isset($_REQUEST['requests']) && isset($_REQUEST['port']) ){
 
     $host = $_REQUEST['host'];
-    $time = $_REQUEST['time'];
+    $requests = $_REQUEST['requests'];
     $port = $_REQUEST['port'];
 
     $connection = ssh2_connect('localhost', 22);
